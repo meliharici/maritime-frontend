@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header{
+  background-color: white;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*
+
+Below are added by k016185.
+
+*/
+
+
+
+.graph_vis_div {
+  margin-top: 20px;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow:  6px 6px 16px #c4c4c4,
+              -6px -6px 16px #ffffff;
+  width: 100%;
+  /* height: 450px;
+  display: flex; */
+  justify-content: center; 
+  background-color: white;
+  color: black;
+}
+
+.bilanco_cumulative_div {
+  margin-top: 0px;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow:  6px 6px 16px #c4c4c4,
+              -6px -6px 16px #ffffff;
+  width: 100%;
+  background-color: white;
+  justify-content: center; 
+  color: black;
+}
+
+.header {
+  background-color: white;
+  padding: 20px 0px 20px 20px !important;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  height: 120px;
+  width: 100%;
+  color: black;
+}
+
+.body {
+  margin-top: 20px;
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
+  min-width: 1000px !important;
+}
+
+.parameter_panel{
+  /* height: 100px; */
+  font-size: 14px;
+  margin-top: 20px;
+  background: white;
+  z-index: 999;
+}
+
+.monitoring_page{
+  width: 100%;
+}
+
+.date_calendar{
+  position:absolute;
+  z-index: 999;
+}
+
+.date_selection_button{
+  width: 100%;
+  color: lightgray;
+}
+
+.bilanco_graph_div{
+  height: 100px;
+  background-color: white;
+}
+
+.vertical_line{
+  background-color: gray;
+  width: 1px;
+  height: 100px;
+  margin-left: 50%;
+}
+
+.refresh_button{
+  margin-right: 5px !important;
+  margin-top: 20px !important;
+  position: absolute;
+}
+
+.dropdown-title{
+  color: black;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background-color: red; */
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+.param-title{
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background-color: red; */
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+.incremental_input_title{
+  color: black;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background-color: red; */
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+.text_button{
+  position: absolute;
+  margin-bottom: 0px !important;
+}
+
+.tooltip_div{
+  text-align: center;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.tooltip_div_header{
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+  background-color: black;
+  height: 20px;
+  font-size: 15px;
+}
+
+.tooltip_body{
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+
